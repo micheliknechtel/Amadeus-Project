@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1187441D46445D00A00088 /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1187411D46445D00A00088 /* libcplex.a */; };
+		7F1187451D46445D00A00088 /* libcplexdistmip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1187421D46445D00A00088 /* libcplexdistmip.a */; };
+		7F1187461D46445D00A00088 /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1187431D46445D00A00088 /* libilocplex.a */; };
+		7F1187481D46447D00A00088 /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1187471D46447D00A00088 /* libconcert.a */; };
+		7F45EF231CB4101B0036CE99 /* Amadeus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F45EF221CB4101B0036CE99 /* Amadeus.cpp */; };
+		7F45EF2A1CB4104A0036CE99 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F45EF291CB4104A0036CE99 /* CoreFoundation.framework */; };
+		7F45EF2C1CB410580036CE99 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F45EF2B1CB410580036CE99 /* IOKit.framework */; };
+		7FFF53751DB53B2E00853BE7 /* DataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53731DB53B2E00853BE7 /* DataManager.cpp */; };
+		7FFF53781DB53C8000853BE7 /* Airports.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53761DB53C8000853BE7 /* Airports.cpp */; };
+		7FFF537B1DB53C9200853BE7 /* Itinerary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53791DB53C9200853BE7 /* Itinerary.cpp */; };
+		7FFF537E1DB53CA300853BE7 /* Leg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF537C1DB53CA300853BE7 /* Leg.cpp */; };
+		7FFF53811DB53CBC00853BE7 /* Composition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF537F1DB53CBC00853BE7 /* Composition.cpp */; };
+		7FFF53841DB53D2700853BE7 /* QuadraticModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53821DB53D2700853BE7 /* QuadraticModel.cpp */; };
+		7FFF53871DB53D3400853BE7 /* LinearModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53851DB53D3400853BE7 /* LinearModel.cpp */; };
+		7FFF538B1DB53D7000853BE7 /* MultidimensionaIloArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53891DB53D7000853BE7 /* MultidimensionaIloArray.cpp */; };
+		7FFF538E1DB53DA600853BE7 /* Parameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF538C1DB53DA600853BE7 /* Parameters.cpp */; };
+		7FFF53911DB53DD100853BE7 /* LinearConstraints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF538F1DB53DD100853BE7 /* LinearConstraints.cpp */; };
+		7FFF53941DB53DE600853BE7 /* QuadraticConstraints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53921DB53DE600853BE7 /* QuadraticConstraints.cpp */; };
+		7FFF53971DB53E1400853BE7 /* InstanceGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7FFF53951DB53E1400853BE7 /* InstanceGenerator.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		7F0B91411D4648A200D40ED6 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F45EF1D1CB4101B0036CE99 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F1187411D46445D00A00088 /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/lib/x86-64_osx/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		7F1187421D46445D00A00088 /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
+		7F1187431D46445D00A00088 /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/lib/x86-64_osx/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		7F1187471D46447D00A00088 /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../Applications/IBM/ILOG/CPLEX_Studio1261/concert/lib/x86-64_osx/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		7F45EF1F1CB4101B0036CE99 /* Amadeus__17__oct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Amadeus__17__oct; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F45EF221CB4101B0036CE99 /* Amadeus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Amadeus.cpp; sourceTree = "<group>"; };
+		7F45EF291CB4104A0036CE99 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7F45EF2B1CB410580036CE99 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7FFF53731DB53B2E00853BE7 /* DataManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataManager.cpp; sourceTree = "<group>"; };
+		7FFF53741DB53B2E00853BE7 /* DataManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DataManager.hpp; sourceTree = "<group>"; };
+		7FFF53761DB53C8000853BE7 /* Airports.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Airports.cpp; sourceTree = "<group>"; };
+		7FFF53771DB53C8000853BE7 /* Airports.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Airports.hpp; sourceTree = "<group>"; };
+		7FFF53791DB53C9200853BE7 /* Itinerary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Itinerary.cpp; sourceTree = "<group>"; };
+		7FFF537A1DB53C9200853BE7 /* Itinerary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Itinerary.hpp; sourceTree = "<group>"; };
+		7FFF537C1DB53CA300853BE7 /* Leg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Leg.cpp; sourceTree = "<group>"; };
+		7FFF537D1DB53CA300853BE7 /* Leg.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Leg.hpp; sourceTree = "<group>"; };
+		7FFF537F1DB53CBC00853BE7 /* Composition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Composition.cpp; sourceTree = "<group>"; };
+		7FFF53801DB53CBC00853BE7 /* Composition.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Composition.hpp; sourceTree = "<group>"; };
+		7FFF53821DB53D2700853BE7 /* QuadraticModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticModel.cpp; sourceTree = "<group>"; };
+		7FFF53831DB53D2700853BE7 /* QuadraticModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuadraticModel.hpp; sourceTree = "<group>"; };
+		7FFF53851DB53D3400853BE7 /* LinearModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearModel.cpp; sourceTree = "<group>"; };
+		7FFF53861DB53D3400853BE7 /* LinearModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinearModel.hpp; sourceTree = "<group>"; };
+		7FFF53881DB53D5600853BE7 /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		7FFF53891DB53D7000853BE7 /* MultidimensionaIloArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultidimensionaIloArray.cpp; sourceTree = "<group>"; };
+		7FFF538A1DB53D7000853BE7 /* MultidimensionaIloArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MultidimensionaIloArray.hpp; sourceTree = "<group>"; };
+		7FFF538C1DB53DA600853BE7 /* Parameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Parameters.cpp; sourceTree = "<group>"; };
+		7FFF538D1DB53DA600853BE7 /* Parameters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Parameters.hpp; sourceTree = "<group>"; };
+		7FFF538F1DB53DD100853BE7 /* LinearConstraints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinearConstraints.cpp; sourceTree = "<group>"; };
+		7FFF53901DB53DD100853BE7 /* LinearConstraints.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinearConstraints.hpp; sourceTree = "<group>"; };
+		7FFF53921DB53DE600853BE7 /* QuadraticConstraints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticConstraints.cpp; sourceTree = "<group>"; };
+		7FFF53931DB53DE600853BE7 /* QuadraticConstraints.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuadraticConstraints.hpp; sourceTree = "<group>"; };
+		7FFF53951DB53E1400853BE7 /* InstanceGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InstanceGenerator.cpp; sourceTree = "<group>"; };
+		7FFF53961DB53E1400853BE7 /* InstanceGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InstanceGenerator.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F45EF1C1CB4101B0036CE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1187481D46447D00A00088 /* libconcert.a in Frameworks */,
+				7F1187441D46445D00A00088 /* libcplex.a in Frameworks */,
+				7F1187451D46445D00A00088 /* libcplexdistmip.a in Frameworks */,
+				7F1187461D46445D00A00088 /* libilocplex.a in Frameworks */,
+				7F45EF2C1CB410580036CE99 /* IOKit.framework in Frameworks */,
+				7F45EF2A1CB4104A0036CE99 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F45EF161CB4101B0036CE99 = {
+			isa = PBXGroup;
+			children = (
+				7F1187471D46447D00A00088 /* libconcert.a */,
+				7F1187411D46445D00A00088 /* libcplex.a */,
+				7F1187421D46445D00A00088 /* libcplexdistmip.a */,
+				7F1187431D46445D00A00088 /* libilocplex.a */,
+				7F45EF2B1CB410580036CE99 /* IOKit.framework */,
+				7F45EF291CB4104A0036CE99 /* CoreFoundation.framework */,
+				7F45EF211CB4101B0036CE99 /* Amadeus */,
+				7F45EF201CB4101B0036CE99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F45EF201CB4101B0036CE99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F45EF1F1CB4101B0036CE99 /* Amadeus__17__oct */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F45EF211CB4101B0036CE99 /* Amadeus */ = {
+			isa = PBXGroup;
+			children = (
+				7F6FA63F1CC623EF0047D047 /* Controler */,
+				7F6FA63E1CC623C60047D047 /* Model */,
+				7F45EF221CB4101B0036CE99 /* Amadeus.cpp */,
+			);
+			name = Amadeus;
+			path = tesr;
+			sourceTree = "<group>";
+		};
+		7F6FA63E1CC623C60047D047 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF53891DB53D7000853BE7 /* MultidimensionaIloArray.cpp */,
+				7FFF538A1DB53D7000853BE7 /* MultidimensionaIloArray.hpp */,
+				7FFF53881DB53D5600853BE7 /* Definitions.h */,
+				7FFF537F1DB53CBC00853BE7 /* Composition.cpp */,
+				7FFF53801DB53CBC00853BE7 /* Composition.hpp */,
+				7FFF53761DB53C8000853BE7 /* Airports.cpp */,
+				7FFF53771DB53C8000853BE7 /* Airports.hpp */,
+				7FFF537C1DB53CA300853BE7 /* Leg.cpp */,
+				7FFF537D1DB53CA300853BE7 /* Leg.hpp */,
+				7FFF53791DB53C9200853BE7 /* Itinerary.cpp */,
+				7FFF537A1DB53C9200853BE7 /* Itinerary.hpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7F6FA63F1CC623EF0047D047 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF538C1DB53DA600853BE7 /* Parameters.cpp */,
+				7FFF538D1DB53DA600853BE7 /* Parameters.hpp */,
+				7F6FA6581CD3A0EF0047D047 /* DataManager */,
+				7F6FA6571CD3A0AB0047D047 /* Handler */,
+			);
+			name = Controler;
+			sourceTree = "<group>";
+		};
+		7F6FA6571CD3A0AB0047D047 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF53951DB53E1400853BE7 /* InstanceGenerator.cpp */,
+				7FFF53961DB53E1400853BE7 /* InstanceGenerator.hpp */,
+				7FFF538F1DB53DD100853BE7 /* LinearConstraints.cpp */,
+				7FFF53901DB53DD100853BE7 /* LinearConstraints.hpp */,
+				7FFF53851DB53D3400853BE7 /* LinearModel.cpp */,
+				7FFF53861DB53D3400853BE7 /* LinearModel.hpp */,
+				7FFF53821DB53D2700853BE7 /* QuadraticModel.cpp */,
+				7FFF53831DB53D2700853BE7 /* QuadraticModel.hpp */,
+				7FFF53921DB53DE600853BE7 /* QuadraticConstraints.cpp */,
+				7FFF53931DB53DE600853BE7 /* QuadraticConstraints.hpp */,
+			);
+			name = Handler;
+			sourceTree = "<group>";
+		};
+		7F6FA6581CD3A0EF0047D047 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				7FFF53731DB53B2E00853BE7 /* DataManager.cpp */,
+				7FFF53741DB53B2E00853BE7 /* DataManager.hpp */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F45EF1E1CB4101B0036CE99 /* Amadeus__17__oct */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F45EF261CB4101B0036CE99 /* Build configuration list for PBXNativeTarget "Amadeus__17__oct" */;
+			buildPhases = (
+				7F45EF1B1CB4101B0036CE99 /* Sources */,
+				7F45EF1C1CB4101B0036CE99 /* Frameworks */,
+				7F45EF1D1CB4101B0036CE99 /* CopyFiles */,
+			);
+			buildRules = (
+				7F0B91411D4648A200D40ED6 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Amadeus__17__oct;
+			productName = tesr;
+			productReference = 7F45EF1F1CB4101B0036CE99 /* Amadeus__17__oct */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F45EF171CB4101B0036CE99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Micheli Knechtel";
+				TargetAttributes = {
+					7F45EF1E1CB4101B0036CE99 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F45EF1A1CB4101B0036CE99 /* Build configuration list for PBXProject "Amadeus__17__oct" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F45EF161CB4101B0036CE99;
+			productRefGroup = 7F45EF201CB4101B0036CE99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F45EF1E1CB4101B0036CE99 /* Amadeus__17__oct */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F45EF1B1CB4101B0036CE99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FFF53841DB53D2700853BE7 /* QuadraticModel.cpp in Sources */,
+				7FFF53911DB53DD100853BE7 /* LinearConstraints.cpp in Sources */,
+				7FFF538B1DB53D7000853BE7 /* MultidimensionaIloArray.cpp in Sources */,
+				7F45EF231CB4101B0036CE99 /* Amadeus.cpp in Sources */,
+				7FFF537E1DB53CA300853BE7 /* Leg.cpp in Sources */,
+				7FFF53811DB53CBC00853BE7 /* Composition.cpp in Sources */,
+				7FFF53971DB53E1400853BE7 /* InstanceGenerator.cpp in Sources */,
+				7FFF538E1DB53DA600853BE7 /* Parameters.cpp in Sources */,
+				7FFF53871DB53D3400853BE7 /* LinearModel.cpp in Sources */,
+				7FFF537B1DB53C9200853BE7 /* Itinerary.cpp in Sources */,
+				7FFF53781DB53C8000853BE7 /* Airports.cpp in Sources */,
+				7FFF53751DB53B2E00853BE7 /* DataManager.cpp in Sources */,
+				7FFF53941DB53DE600853BE7 /* QuadraticConstraints.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F45EF241CB4101B0036CE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F45EF251CB4101B0036CE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F45EF271CB4101B0036CE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PREPROCESSOR_DEFINITIONS = "LOGLEVEL=0";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/include\"",
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/concert/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/lib/x86-64_osx/static_pic\"",
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = Amadeus__17__oct;
+			};
+			name = Debug;
+		};
+		7F45EF281CB4101B0036CE99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				GCC_PREPROCESSOR_DEFINITIONS = "LOGLEVEL=0";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/include\"",
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/concert/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/cplex/lib/x86-64_osx/static_pic\"",
+					"\"$(SRCROOT)/../../../Applications/IBM/ILOG/CPLEX_Studio1261/concert/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = Amadeus__17__oct;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F45EF1A1CB4101B0036CE99 /* Build configuration list for PBXProject "Amadeus__17__oct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F45EF241CB4101B0036CE99 /* Debug */,
+				7F45EF251CB4101B0036CE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F45EF261CB4101B0036CE99 /* Build configuration list for PBXNativeTarget "Amadeus__17__oct" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F45EF271CB4101B0036CE99 /* Debug */,
+				7F45EF281CB4101B0036CE99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F45EF171CB4101B0036CE99 /* Project object */;
+}
